@@ -1,0 +1,1 @@
+0 0 * * * /bin/df -h > /ftp/cjl/wy/disk_clean_cron.log; /usr/bin/python3 /ftp/cjl/wy/disk_cleaner.py >> /ftp/cjl/wy/disk_clean_cron.log 2>&1; /bin/df -h >> /ftp/cjl/wy/disk_clean_cron.log
