@@ -1,0 +1,1 @@
+30 * * * * sh /home/cjl/timed_killprocess_task.sh
